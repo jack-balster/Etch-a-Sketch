@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Etch-a-Sketch</title>
+</head>
+<body>
+  <div class="window">
+    <div class="app-container">
+    <div class="app-border">
+      <div class="app-title">Etch-a-Sketch<sup style="font-size: 25px;"></sup></div>
+      <div class="canvas-shadow"></div>
+      <div class="canvas-container"></div>
+      <div class="settings-container">
+        <div id="color-control" class="control-container" style="width:190px;">
+          <div class="label">Color</div>
+          <div id="color-selector" class="control"></div>
+        </div>
+        <div class="control-container" style="width:120px;">
+          <div class="label">Mode</div>
+          <div id="mode-selector" class="control"></div>
+        </div>
+        <div class="control-container">
+          <span class="grid-size-label label"></span>
+          <div class="slider-container control">
+            <input id="grid-slider" type="range" class="slider">
+          </div>
+        </div>
+        <div class="control-container">
+          <div id="shake-button" class="control">Clear</div>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+
+</body>
+</html>
