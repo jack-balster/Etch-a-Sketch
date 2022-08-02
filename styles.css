@@ -6,7 +6,9 @@
   
   body {
     font-family: 'Plus Jakarta Sans';
-    background-color: #75c8ae;
+    background-color: #1697d7;
+    padding-top: 10px;
+    height: 100vh;
   }
   
   .window {
@@ -14,8 +16,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    padding: 30px;
+    margin: 30px;
+    height: 90vh;
   }
   
   .app-container {
@@ -26,12 +28,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1001px;
+    width: 1000px;
+    margin: 10px;
+    padding-bottom: 20px;
   }
   
   .app-border {
-   background-color: #e85432;
-   padding: 30px 50px;
+   background-color: #e04a28;
+   padding: 10px 50px;
+   padding-top: 5px;
    border-radius: 24px;
    border-bottom: 10px solid #0000002a;
   }
@@ -39,9 +44,9 @@
   .app-title {
     border-radius: 16px;
     text-align: center;
-    margin-bottom: 25px;
-    font-family: 'Mrs Sheppards';
-    font-size: 50px;
+    margin-bottom: 15px;
+    font-family: 'times-new-roman';
+    font-size: 45px;
     color: #fdb86a;
     text-shadow: 0px 1px #0000002a; 
     line-height: 80%;
@@ -55,7 +60,7 @@
     font-size: 18px;
     gap: 20px;
     justify-content: space-between;
-    padding: 30px 0 0 0;
+    padding: 25px 0 0 0;
   }
   
   .grid-size-label {
@@ -97,6 +102,7 @@
     border-right: 1px solid #0000003e;
   }
   
+  /*grid styling*/
   .grid-square {
     border-top: 1px solid #0000002a;
     border-left: 1px solid #0000002a;
@@ -110,7 +116,8 @@
   .grid-square.draw {
     background-color: #565656;
   }
-  
+
+  /*clear animation*/
   .canvas-shake {
     animation-name: shake;
     animation-duration: 0.6s;
@@ -124,7 +131,7 @@
     100% {transform:rotate(0deg); position:relative; top:0px;}
   }
   
-  /* Slider styling */
+  /*slider styling*/
   .slider {
     -webkit-appearance: none;
     width: 150px;
