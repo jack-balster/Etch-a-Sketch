@@ -1,4 +1,4 @@
-const canvasContainer = document.querySelector('.canvas-container'); //. = css element
+const canvasContainer = document.querySelector('.canvas-container'); //. = class in html
 const slider = document.querySelector('#grid-slider'); //# = id in html
 const gridSizeLabel = document.querySelector('.grid-size-label');
 const shakeButton = document.querySelector('#shake-button');
